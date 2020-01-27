@@ -42,6 +42,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: rgba(0, 0, 0, 0.8);
 }
 a:active,
 a:hover {
@@ -619,4 +620,57 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+nav {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  text-align: right;
+}
+nav > ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-block-end: 0;
+}
+nav li {
+  display: inline-block;
+}
+nav li::after {
+  display: inline-block;
+  color: #e5ad24;
+  content: " | ";
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+nav li a {
+  color: #e5ad24;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+}
+
+nav li:last-child:after {
+  content: "";
+}
+
+footer {
+  color: slategrey;
+  font-size: 14px;
+  border-top: lightgrey solid 1px;
+  padding-top: 1%;
+  margin-top: 2%;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer p a {
+  color: slategrey;
+}
+
+footer p a:hover {
+  color: darkslategrey;
 }

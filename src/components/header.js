@@ -1,42 +1,29 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import Nav from "./nav"
+import mugendoLogo from "../images/mugendo-logo.svg"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `linear-gradient(90deg, rgba(153,0,0,1) 0%, rgba(216,31,47,1) 50%, rgba(153,0,0,1) 100%)`,
       marginBottom: `1.45rem`,
     }}
   >
+    <Nav />
     <div
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        textAlign: `center`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+      <img alt="Mugendo Logo" width="300px" src={mugendoLogo} />
     </div>
   </header>
 )
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+Header.propTypes = {}
 
-Header.defaultProps = {
-  siteTitle: ``,
-}
+Header.defaultProps = {}
 
 export default Header
