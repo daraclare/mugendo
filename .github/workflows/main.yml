@@ -14,9 +14,8 @@ jobs:
 
       - name: Build Project
         run: |
-          npm install yarn
-          yarn install
-          gatsby build
+          yarn install --prod --pure-lockfile
+          yarn run build
 
       - name: List output files
         run: ls
