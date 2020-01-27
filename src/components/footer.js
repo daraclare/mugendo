@@ -21,7 +21,7 @@ const Footer = () => (
     <p>
       © {new Date().getFullYear()}, site by
       {` `}
-      <a href="https://www.daraclare.com">daraclare</a>
+      <a href="http://www.daraclare.com/index.html">daraclare</a>
     </p>
   </footer>
 )
