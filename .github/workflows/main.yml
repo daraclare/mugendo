@@ -16,7 +16,7 @@ jobs:
         run: |
           npm install yarn
           yarn install
-          yarn build --if-present
+          gatsby build
 
       - name: List output files
         run: ls
