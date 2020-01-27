@@ -27,5 +27,5 @@ jobs:
           FTP_USERNAME: daraclare
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
           LOCAL_DIR: public
-          REMOTE_DIR: /webspace/httpdocs/mugendo-ashbourne.ie
+          REMOTE_DIR: webspace/httpdocs/mugendo-ashbourne.ie
           ARGS: --delete
