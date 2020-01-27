@@ -26,6 +26,6 @@ jobs:
           FTP_SERVER: ftp.mugendo-ashbourne.ie
           FTP_USERNAME: daraclare
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-          LOCAL_DIR: build
+          LOCAL_DIR: public
           REMOTE_DIR: /webspace/httpdocs/mugendo-ashbourne.ie
           ARGS: --delete
