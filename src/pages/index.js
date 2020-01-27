@@ -6,14 +6,14 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Mugendo Ashbourne Kickboxing" />
-    <h1>Mugendo Ashbourne Kickboxing</h1>
+    <SEO title="Mugendo Ashbourne Kickboxing Club" />
+    <h1>Mugendo Ashbourne Kickboxing Club</h1>
     <p>
-      Welcome to the official website of Mugendo Ashbourne. Mugendo Kickboxing
-      as a martial art can grow with your evolving needs, whether you are
-      initially looking to improve your fitness, learn self-defence or
-      interested in competing, then Mugendo Kickboxing should be seriously
-      considered.
+      Welcome to the official website of the Mugendo Ashbourne Kickboxing Club.
+      Mugendo Kickboxing as a martial art can grow with your evolving needs,
+      whether you are initially looking to improve your fitness, learn
+      self-defence or interested in competing, then Mugendo Kickboxing should be
+      seriously considered.
     </p>
     <p>
       As you grow in confidence with this martial art why not get into the ring

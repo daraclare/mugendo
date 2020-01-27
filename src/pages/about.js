@@ -6,9 +6,8 @@ import SEO from "../components/seo"
 
 const About = () => (
   <Layout>
-    <SEO title="About Mugendo Kickboxing Ashbourne" />
-    <h1>Mugendo Kickboxing Ashbourne</h1>
-    <h2>About Mugendo Ashbourne</h2>
+    <SEO title="About Mugendo Ashbourne Kickboxing Club" />
+    <h2>About Mugendo Ashbourne Kickboxing Club</h2>
     <p>
       Mugendo Kickboxing Ashbourne is a member and an associate club of the
       Irish Mugendo Kickboxing Association (IMKA). Our Irish Headquarters are

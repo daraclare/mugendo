@@ -6,8 +6,8 @@ import SEO from "../components/seo"
 
 const Classes = () => (
   <Layout>
-    <SEO title="Mugendo Kickboxing Ashbourne: Classes" />
-    <h1>Mugendo Kickboxing Ashbourne Classes</h1>
+    <SEO title="Mugendo Ashbourne Kickboxing Club: Classes" />
+    <h1>Mugendo Ashbourne Kickboxing Club Classes</h1>
 
     <p>
       Classes are held on Mondays and Thursday in Ashbourne Community Center.
